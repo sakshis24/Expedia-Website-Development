@@ -1,0 +1,9 @@
+.flying
+{
+	float:left;
+	width:50%;
+}
+#div-section
+{
+	background-image:url("images/flightbg.jpg");
+}
