@@ -1,0 +1,239 @@
+body
+{
+	margin:0;
+
+}
+h1
+{
+	margin-top:0;
+	margin-bottom:0;
+	padding-top:5px;
+	font-size:40px;
+    font-family: 'Acme', sans-serif;
+	padding-bottom:15px;
+	padding-left:70px;
+	
+}
+header
+{
+	
+	padding-top:10px;
+	background-color:#f4ad42;
+	height:30px;
+	text-align:center;
+}
+
+ul
+ {
+	margin-top:0;
+    list-style-type: none;
+    overflow: hidden;
+	color:blue;
+	padding-left:100px;
+	
+}
+
+li 
+{
+    float: left;
+	text-align:center;
+}
+a{
+	text-decoration:none;
+	float:left;
+}
+
+li a 
+{
+    display: block;
+    padding-right:16px;
+	font-size:18px;
+	
+	
+}
+.padding-left
+{
+	padding-left:2px;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	
+	
+}
+
+button {
+    width: 100px;
+    background-color:#ffcc00;
+    color: black;
+    padding: 10px 10px;
+    border-radius:4px;
+    cursor:pointer;
+	text-align:center;
+	font-size:15px;
+	font-weight:bold;
+	
+}
+
+button:hover 
+{
+    background-color:#ffd11a;
+}
+
+div>form{
+	background-color:rgb(26, 26, 26);
+	opacity:0.8;
+	border-radius:8px;
+	width:80%;
+	margin-left:40px;
+	margin-right:40px;
+	padding-left:40px;
+	padding-right:90px;
+	padding-top:20px;
+	
+	
+}
+h2
+{
+	margin:0;
+	color:white;
+	font-family: 'Cinzel', serif;
+	padding:0;
+	padding-bottom:10px;
+	
+}
+
+form
+{
+	margin:0;
+   font-family: 'Alegreya', serif;
+   color:white;
+}
+
+.call-out-container
+{
+	max-width:400px;
+	margin:20px auto 0 auto;
+	display:flex;
+}
+.call-out
+{
+	padding:10px;
+	margin-bottom:10px;
+	flex:1;
+}
+span
+{
+	display:inline;
+}
+article
+{
+	background-color:#666666;
+}
+#form-section{
+	background-image:url("real.jpg");
+}
+#btn-style
+{
+    background:transparent;
+	border:transparent;
+}
+nav
+{
+	text-align:right;
+}
+section>h1
+{
+	float:left;
+}
+.banner
+{
+	float:left;
+	display:flex;
+}
+.alignment
+{
+	float:right;
+	flex:1;
+}
+
+.main-container
+{
+	max-width:1300px;
+	background-color:#fff;
+	margin:40px auto 0 auto;
+	line-height:1.65;
+    padding:0;
+	display:flex;
+	margin:0;
+	height:60px;
+	
+		
+}
+.first-container{
+flex:1;
+order:1;
+
+}
+.second-container
+{
+padding-top:10px;
+flex:1;
+order:2;
+}
+
+#fname
+{
+	width:60%;
+}
+
+#datepicker
+{
+	width:180px;
+}
+#datepicker2
+{
+	width:180px;
+}
+.xyz
+{
+	padding-bottom:30px;
+	padding-top:30px;
+}
+fieldset
+{
+	border:0;
+	justify-content:space-between;
+	padding:0;
+}
+
+.column-nested
+{
+	max-width:1500px;
+	margin:40px auto 0 auto;
+	line-height:1.65;
+    padding:0;
+	display:flex;
+	margin:0;
+	height:60px;
+}
+.In
+{
+	float:left;
+	padding-right:30px;
+    padding-left:0px;
+}
+.Out
+{
+	float:left;
+    padding-right:30px;
+}
+#form-area
+{
+background-image:url("images/hotel_room.jpg");
+}

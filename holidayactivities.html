@@ -1,0 +1,85 @@
+<html>
+<head>
+<title>
+Hotels,find cheap hotels,flights
+</title>
+<link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+<link rel="shortcut icon" href="flight.ico" />
+<link href="https://fonts.googleapis.com/css?family=Acme|Baloo+Tammudu" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="holiday.css" />
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+  
+  <script>
+  $(document).ready(function() {
+    $("#datepicker").datepicker();
+  });
+  $(document).ready(function() {
+    $("#datepicker2").datepicker();
+  });
+  </script>
+</head>
+<body>
+<header>
+NEW! Expedia+ Get an extra 10% off or more on select hotels with Member Pricing Join now, it's free!
+</header>
+<div class="main-container">
+<div class="first-container">
+<h1>
+<a href="https://www.expedia.co.in/">
+<img src="images/Capture.png" alt="expedia" width="200" height="50" align="left"/>
+</h1>
+</div>
+<div class="second-container">
+<nav>
+<ul>
+<li>
+<button id="btn-style"><img src="images/capture1.png" /></button>
+</li>
+<li>Account</li>
+<a href="#">My Lists</li>
+<li>Manage Trips</li>
+<li>Support</li>
+</ul>
+</nav>
+</div>
+</div>
+<ul>
+  <li><a href="#">Home</a></li>
+  <li><a href="file:///E:/Expedia-Development-develop/expedia/index.html#">Hotels</a></li>
+  <li><a href="file:///E:/Expedia-Development-develop/expedia/flightform.html">Flights</a></li>
+  <li><a href="#">Discover</a></li>
+  <li><a href="file:///E:/Expedia-Development-develop/expedia/carrental.html">Car Rental</a></li>
+  <li><a href="file:///E:/Expedia-Development-develop/expedia/holidayactivities.html">Holiday Activities</a></li>
+  <li><a href="#">Last Minute Deals</a></li>
+  <li><a href="#">Deals</a></li>
+  <li><a href="#">Rewards</a></li>
+  <li><a href="#">Mobile</a></li>
+  <li><a href="#">Travel Blog</a></li>
+</ul>
+</div>
+<div style="border-radius:5px;padding:40px;" id="form-area">
+<form>
+<h2 class="padding-left">Search Anything To Do</h2>
+<label for="fname">Going-to</label><br>
+  <input type="text" id="fname" name="firstname" placeholder="Destination,Hotel Name,LandMark..">
+  <span><br>
+  <fieldset class="columns-nested">
+  <div class="In">
+ <label for="Check-In">From</label><br>
+<input type="text" name="Check-In" id="datepicker" placeholder="dd/mm/yyyy"><br>
+</div>
+<div class="Out">
+ <label for="Check-Out">To</label><br>
+  <input type="text" name="Check-Out" id="datepicker2"  placeholder="dd/mm/yyyy">
+</div>
+</fieldset>
+<div class="xyz">
+<button><a href="file:///E:/Expedia-Website-Development/search.html">Search</a></button>
+</div>
+</form>
+</div>
+</body>
+</html>
